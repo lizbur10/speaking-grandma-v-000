@@ -17,12 +17,12 @@ def speak_to_grandma(phrase)
   if phrase == phrase.upcase
     binding.pry
     if phrase == "I LOVE YOU GRANDMA!"
-      puts "I LOVE YOU TOO PUMPKIN!"
+      "I LOVE YOU TOO PUMPKIN!"
     else
-      puts "NO, NOT SINCE 1938!"
+      "NO, NOT SINCE 1938!"
     end
   else
-    puts "HUH?! SPEAK UP, SONNY!"
+    "HUH?! SPEAK UP, SONNY!"
   end
 end
 speak_to_grandma('Hello')
